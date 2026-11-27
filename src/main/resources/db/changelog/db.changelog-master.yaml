@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: developer
+      comment: Initial database migration
+      changes:
+        - sql:
+            sql: SELECT 1;
